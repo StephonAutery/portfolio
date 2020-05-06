@@ -17,5 +17,5 @@ require("./routes/apiRoutes.js")(app);
 
 // start express app.
 app.listen(PORT, function() {
-console.log("App listening on: http://localhost:" + PORT);
+console.log("App listening on PORT " + PORT);
 });
